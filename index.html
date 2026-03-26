@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мебель PVL — Авторская мебель на заказ в Павлодаре</title>
+    <title>MEBELIX PVL — Авторская мебель на заказ в Павлодаре</title>
     <style>
         :root {
             --gold: #c5a059;
@@ -26,20 +26,17 @@
         .hero h1 { font-size: 42px; margin-bottom: 15px; text-transform: uppercase; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
         .hero p { font-size: 18px; max-width: 700px; margin-bottom: 30px; color: #ccc; }
 
-        /* Кнопки */
         .btn { padding: 15px 35px; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.3s; text-transform: uppercase; display: inline-block; font-size: 14px; border: none; cursor: pointer; }
         .btn-gold { background: var(--gold); color: white; }
         .btn-gold:hover { background: #b08d4a; transform: scale(1.05); }
         .btn-wa { background: #25d366; color: white; }
         .btn-wa:hover { background: #1ebe57; transform: scale(1.05); }
 
-        /* Секции */
         .section { padding: 80px 5%; text-align: center; }
         .section h2 { font-size: 32px; margin-bottom: 10px; position: relative; text-transform: uppercase; color: var(--dark); }
         .section h2::after { content: ''; width: 60px; height: 3px; background: var(--gold); position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); }
         .section-desc { color: var(--gray); margin-bottom: 50px; font-size: 16px; max-width: 600px; margin-left: auto; margin-right: auto; }
 
-        /* СЕКЦИЯ ЦЕН (твоя) */
         .price-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px; margin-bottom: 50px; }
         .price-cards .card { 
             background: white; padding: 35px 25px; border-radius: 12px; 
@@ -50,7 +47,6 @@
         .price-cards h3 { margin: 0 0 15px; color: var(--dark); font-size: 20px; }
         .price-cards p { font-size: 24px; color: var(--gold); font-weight: bold; margin: 0; }
 
-        /* БОЛЬШАЯ ГАЛЕРЕЯ (КАТАЛОГ) */
         .gallery { 
             display: grid; 
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
@@ -63,7 +59,7 @@
             border-radius: 8px; 
             height: 320px; 
             box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
-            background: #eee; /* Фон пока грузится */
+            background: #eee;
         }
         .gallery-item img { 
             width: 100%; 
@@ -73,7 +69,6 @@
         }
         .gallery-item:hover img { transform: scale(1.1); }
         
-        /* Всплывающее описание при наведении */
         .gallery-caption { 
             position: absolute; 
             bottom: 0; left: 0; right: 0; 
@@ -89,14 +84,12 @@
         .gallery-caption h3 { margin: 0 0 5px; font-size: 16px; font-weight: bold; color: var(--gold); }
         .gallery-caption p { margin: 0; color: #ccc; font-size: 13px; }
 
-        /* Почему мы */
         .grid-why { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
         .why-card { background: var(--light); padding: 40px 25px; border-radius: 12px; border: 1px solid #eee; transition: 0.3s; text-align: left;}
         .why-card:hover { background: white; border-color: var(--gold); box-shadow: 0 15px 35px rgba(0,0,0,0.1); }
         .why-card h3 { font-size: 20px; color: var(--dark); margin-top: 0; }
         .why-card p { color: var(--gray); font-size: 15px; margin-bottom: 0; }
 
-        /* Футер */
         footer { background: var(--dark); color: white; padding: 70px 5% 30px; text-align: center; }
         .footer-contacts p { margin: 0 0 10px; color: #999; }
         .footer-phone { color: var(--gold); text-decoration: none; font-size: 32px; font-weight: bold; display: block; margin-bottom: 30px; transition: 0.3s; }
@@ -108,122 +101,3 @@
             .hero p { font-size: 16px; }
             .section h2 { font-size: 26px; }
             .gallery-item { height: 250px; }
-            .footer-phone { font-size: 24px; }
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <div class="logo">MEBEL <span style="color:var(--gold)">PVL</span></div>
-    <div style="font-size: 14px; color: #aaa;">Изготовление мебели в Павлодаре</div>
-</header>
-
-<section class="hero">
-    <h1>Мебель, которая вдохновляет</h1>
-    <p>Реализуем проекты любой сложности по вашим размерам. От эскиза до монтажа.</p>
-    <a href="https://wa.me/77053409556" class="btn btn-gold">Обсудить ваш проект</a>
-</section>
-
-<section class="section">
-    <h2>Ориентировочная стоимость</h2>
-    <p class="section-desc">Точная цена зависит от размеров, материалов фасадов и выбранной фурнитуры. Закажите бесплатный замер для точного расчета.</p>
-    <div class="price-cards">
-        <div class="card"><h3>Кухни</h3><p>от 120 000 тг</p></div>
-        <div class="card"><h3>Шкафы</h3><p>от 65 000 тг</p></div>
-        <div class="card"><h3>Гардеробные</h3><p>от 100 000 тг</p></div>
-        <div class="card"><h3>Прихожие</h3><p>от 60 000 тг</p></div>
-    </div>
-    <a class="btn btn-wa" href="https://wa.me/77053409556">Рассчитать цену по моим размерам</a>
-</section>
-
-<section class="section" style="background: #fafafa;">
-    <h2>Наши выполненные работы</h2>
-    <p class="section-desc">Вдохновитесь нашими проектами. Каждое изделие создано индивидуально для наших клиентов в Павлодаре.</p>
-    
-    <div class="gallery">
-        <div class="gallery-item">
-            <img src="image_3.png" alt="Современная кухня">
-            <div class="gallery-caption"><h3>Современная кухня</h3><p>МДФ крашенный, интегрированные ручки, подсветка.</p></div>
-        </div>
-        <div class="gallery-item">
-            <img src="image_9.png" alt="Шкаф с фрезеровкой">
-            <div class="gallery-caption"><h3>Шкаф в спальню</h3><p>Эксклюзивная фрезеровка фасадов, золото, зеркала.</p></div>
-        </div>
-        <div class="gallery-item">
-            <img src="image_4.png" alt="Светлая кухня">
-            <div class="gallery-caption"><h3>Светлая классика</h3><p>Уютная кухня в классическом стиле, фацетные стекла.</p></div>
-        </div>
-        <div class="gallery-item">
-            <img src="image_11.png" alt="Детская комната">
-            <div class="gallery-caption"><h3>Мебель для детской</h3><p>Комплексное решение: кровати, шкафы, рабочая зона.</p></div>
-        </div>
-        <div class="gallery-item">
-            <img src="image_8.png" alt="Туалетный столик">
-            <div class="gallery-caption"><h3>Парящая бьюти-зона</h3><p>Столик с выдвижными ящиками, круглое зеркало.</p></div>
-        </div>
-        <div class="gallery-item">
-            <img src="image_5.png" alt="Встроенный шкаф">
-            <div class="gallery-caption"><h3>Встроенный шкаф</h3><p>Максимальное использование пространства, МДФ мат.</p></div>
-        </div>
-        <div class="gallery-item">
-            <img src="image_6.png" alt="Прихожая с рейками">
-            <div class="gallery-caption"><h3>Стильная прихожая</h3><p>Рейки, мягкое сиденье, обувница, зеркало.</p></div>
-        </div>
-        <div class="gallery-item">
-            <img src="image_2.png" alt="ТВ-зона">
-            <div class="gallery-caption"><h3>ТВ-зона на заказ</h3><p>Современная стенка в гостиную, глянец и дерево.</p></div>
-        </div>
-        <div class="gallery-item">
-            <img src="image_1.png" alt="Шкаф-купе">
-            <div class="gallery-caption"><h3>Шкаф-купе</h3><p>Надежная раздвижная система, зеркала с пескоструем.</p></div>
-        </div>
-        <div class="gallery-item">
-            <img src="image_7.png" alt="Распашной шкаф">
-            <div class="gallery-caption"><h3>Классический гардероб</h3><p>Распашные двери, качественная фурнитура.</p></div>
-        </div>
-        <div class="gallery-item">
-            <img src="image_10.png" alt="Гардеробная">
-            <div class="gallery-caption"><h3>Вместительная гардеробная</h3><p>Продуманная система хранения вещей.</p></div>
-        </div>
-        <div class="gallery-item">
-            <img src="image_12.png" alt="Кровать с изголовьем">
-            <div class="gallery-caption"><h3>Кровать на заказ</h3><p>Мягкое изголовье (велюр), подъемный механизм.</p></div>
-        </div>
-    </div>
-    
-    <p style="color: var(--gray);">Смотрите больше работ в нашем <a href="https://www.instagram.com/mebel_pvl1_4" target="_blank" style="color: var(--gold); text-decoration: none; font-weight: bold;">Instagram</a></p>
-</section>
-
-<section class="section">
-    <h2>Почему Мебель PVL?</h2>
-    <div class="grid-why">
-        <div class="why-card">
-            <h3>✨ Уникальный дизайн</h3>
-            <p>Создаем мебель, которая идеально впишется в ваш интерьер и подчеркнет ваш стиль.</p>
-        </div>
-        <div class="why-card">
-            <h3>🪚 Своё производство</h3>
-            <p>Полный контроль качества на каждом этапе производства в Павлодаре.</p>
-        </div>
-        <div class="why-card">
-            <h3>🛡️ Официальная гарантия</h3>
-            <p>Используем только проверенные материалы и фурнитуру от мировых брендов.</p>
-        </div>
-    </div>
-</section>
-
-<footer>
-    <div class="footer-contacts">
-        <p>Запишитесь на бесплатный замер:</p>
-        <a href="tel:+77716434686" class="footer-phone">+7 (705) 340 95-56</a>
-    </div>
-    <div class="footer-btns">
-        <a href="https://wa.me/77053409556" class="btn btn-wa">WhatsApp</a>
-        <a href="https://www.instagram.com/mebel_pvl1_4" class="btn" style="border: 1px solid var(--gold); color: var(--gold);" target="_blank">Наш Instagram</a>
-    </div>
-    <p style="font-size: 14px; color: #555;">© 2026 Мебель PVL. г. Павлодар.</p>
-</footer>
-
-</body>
-</html>
